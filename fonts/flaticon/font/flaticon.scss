@@ -1,0 +1,93 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ec8324c64b7457de7ee5492ae115ebf9") format("truetype"),
+url("./flaticon.woff?ec8324c64b7457de7ee5492ae115ebf9") format("woff"),
+url("./flaticon.woff2?ec8324c64b7457de7ee5492ae115ebf9") format("woff2"),
+url("./flaticon.eot?ec8324c64b7457de7ee5492ae115ebf9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ec8324c64b7457de7ee5492ae115ebf9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "beauty-treatment-1": "\f101",
+    "beauty-treatment": "\f102",
+    "candle": "\f103",
+    "eye": "\f104",
+    "hand-cream": "\f105",
+    "hot-stone": "\f106",
+    "massage-1": "\f107",
+    "massage-2": "\f108",
+    "massage": "\f109",
+    "meditation": "\f10a",
+    "pedicure": "\f10b",
+    "relax": "\f10c",
+    "rose": "\f10d",
+    "spa": "\f10e",
+    "towels": "\f10f",
+    "treatment": "\f110",
+    "wax": "\f111",
+);
+
+.flaticon-beauty-treatment-1:before {
+    content: map-get($flaticon-map, "beauty-treatment-1");
+}
+.flaticon-beauty-treatment:before {
+    content: map-get($flaticon-map, "beauty-treatment");
+}
+.flaticon-candle:before {
+    content: map-get($flaticon-map, "candle");
+}
+.flaticon-eye:before {
+    content: map-get($flaticon-map, "eye");
+}
+.flaticon-hand-cream:before {
+    content: map-get($flaticon-map, "hand-cream");
+}
+.flaticon-hot-stone:before {
+    content: map-get($flaticon-map, "hot-stone");
+}
+.flaticon-massage-1:before {
+    content: map-get($flaticon-map, "massage-1");
+}
+.flaticon-massage-2:before {
+    content: map-get($flaticon-map, "massage-2");
+}
+.flaticon-massage:before {
+    content: map-get($flaticon-map, "massage");
+}
+.flaticon-meditation:before {
+    content: map-get($flaticon-map, "meditation");
+}
+.flaticon-pedicure:before {
+    content: map-get($flaticon-map, "pedicure");
+}
+.flaticon-relax:before {
+    content: map-get($flaticon-map, "relax");
+}
+.flaticon-rose:before {
+    content: map-get($flaticon-map, "rose");
+}
+.flaticon-spa:before {
+    content: map-get($flaticon-map, "spa");
+}
+.flaticon-towels:before {
+    content: map-get($flaticon-map, "towels");
+}
+.flaticon-treatment:before {
+    content: map-get($flaticon-map, "treatment");
+}
+.flaticon-wax:before {
+    content: map-get($flaticon-map, "wax");
+}

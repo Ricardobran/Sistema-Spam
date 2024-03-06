@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?ec8324c64b7457de7ee5492ae115ebf9") format("truetype"),
+url("./flaticon.woff?ec8324c64b7457de7ee5492ae115ebf9") format("woff"),
+url("./flaticon.woff2?ec8324c64b7457de7ee5492ae115ebf9") format("woff2"),
+url("./flaticon.eot?ec8324c64b7457de7ee5492ae115ebf9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ec8324c64b7457de7ee5492ae115ebf9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 70px;
+    color: #EA728C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-beauty-treatment-1:before {
+    content: "\f101";
+}
+.flaticon-beauty-treatment:before {
+    content: "\f102";
+}
+.flaticon-candle:before {
+    content: "\f103";
+}
+.flaticon-eye:before {
+    content: "\f104";
+}
+.flaticon-hand-cream:before {
+    content: "\f105";
+}
+.flaticon-hot-stone:before {
+    content: "\f106";
+}
+.flaticon-massage-1:before {
+    content: "\f107";
+}
+.flaticon-massage-2:before {
+    content: "\f108";
+}
+.flaticon-massage:before {
+    content: "\f109";
+}
+.flaticon-meditation:before {
+    content: "\f10a";
+}
+.flaticon-pedicure:before {
+    content: "\f10b";
+}
+.flaticon-relax:before {
+    content: "\f10c";
+}
+.flaticon-rose:before {
+    content: "\f10d";
+}
+.flaticon-spa:before {
+    content: "\f10e";
+}
+.flaticon-towels:before {
+    content: "\f10f";
+}
+.flaticon-treatment:before {
+    content: "\f110";
+}
+.flaticon-wax:before {
+    content: "\f111";
+}
